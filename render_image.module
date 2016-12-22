@@ -1,0 +1,9 @@
+<?php
+
+  $image = theme('image', array(
+    'path' => path_to_theme() . '/images/' . $filename,
+    'alt' => 'Immagine del progetto Sharing3fvg',
+    )
+  );
+  
+  print $image;
